@@ -1,4 +1,4 @@
-importScripts('shape_factories.js', '../js/kdTree.js', 'jspolygon.js');
+importScripts('shape_factories.js', './js/kdTree.js', 'jspolygon.js');
 
 onmessage = function(e) {
   var options = e.data;
